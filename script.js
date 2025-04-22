@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         setTimeout(() => {
           window.location.href = nextPage;
-        }, 2000);
+        }, 1000);
       } else {
         if (feedback) {
           feedback.textContent = "Try again!";
