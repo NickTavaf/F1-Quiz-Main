@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to the F1 Quiz</title>
+  <link rel="stylesheet" href="index-style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the F1 History Quiz</h1>
+    <p>Test your knowledge of Formula 1 Champions!</p>
+    
+    <button onclick="startQuiz()">Start Quiz</button>
+   
+  </div>
+  <a href="list.html">
+    <img src="ListButton.png" alt="Back to Home" id="back-button-img">
+  </a>
+
+  <script>
+    function startQuiz() {
+      localStorage.setItem("score", "0"); // Reset score
+      window.location.href = "question2.html"; // Go to first question
+    }
+  </script>
+</body>
+</html>
