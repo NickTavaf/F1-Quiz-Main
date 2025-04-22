@@ -2,21 +2,41 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 89%;
     width: 100%;
     font-family: Arial, sans-serif;
-    background-image: url('F1track.png'); 
-    background-size: cover;         
-    background-position: top center;     
-    background-repeat: no-repeat;   
-    background-attachment: fixed; 
+    border-top: 100px solid #de1313;
+    border-bottom: 10px solid #de1313;
+  
     color: #000000;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    overflow: hidden;
+    overflow: scroll;
+    
   }
+  
+
+  #Logo-img {
+    position: absolute;
+    left: 30px;
+    top: 8px;
+    width: 230px;
+    max-width: 90%;
+    height: 20vh;
+  }
+
+
+  #CarPhoto-img {
+    position: absolute;
+    right: 0px;
+    top: -5px;
+    width: 420px;
+    max-width: 90%;
+    height: 75vh;
+  }
+  
 
   #back-button-img {
     position: absolute;
