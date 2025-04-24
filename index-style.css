@@ -139,3 +139,87 @@ html, body {
       transform: translateX(100vw);
     }
   }
+
+  /* 
+ fitting to other devices */
+ @media (max-width: 575.98px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-top: 40px solid #de1313;
+    border-bottom: 6px solid #de1313;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+  }
+
+  #Logo-img {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 120px;
+    height: auto;
+    z-index: 10;
+  }
+
+  #CarPhoto-img {
+    position: absolute;
+    right: 0px;
+    top: -1px;
+    width: 150px;
+    height: 250px;
+    z-index: 9;
+  }
+
+  #back-button-img {
+    position: static;
+    width: 70%;
+    height: auto;
+    margin: 1.5rem auto 0;
+    display: block;
+  }
+
+  .container {
+    margin: 0;
+    padding-top: 120px; /* Makes space for images */
+    padding-bottom: 2rem;
+    width: 90%;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+    line-height: 1.2;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 0.75rem;
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  #quiz-container {
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .question,
+  h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+}

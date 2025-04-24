@@ -96,3 +96,18 @@ button:hover {
     transform: translateX(100vw);
   }
 }
+
+/* 
+fitting to other devices */
+@media (max-width: 575.98px) { 
+  #quiz-container {
+    max-width: 200px;
+
+  }
+  h1 {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+ }
+
