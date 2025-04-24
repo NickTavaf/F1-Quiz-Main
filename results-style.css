@@ -67,4 +67,11 @@ html, body {
   button:hover {
     background-color: #b01010;
   }
+
+  @media (max-width: 575.98px) {  
+    #quiz-container {
+      height: 50vh;
+    }
+    
+  }
   

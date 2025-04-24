@@ -25,8 +25,8 @@ html, body {
     left: 30px;
     top: -5px;
     width: 230px;
-    max-width: 90%;
-    height: 20vh;
+    /* max-width: 90%;
+    height: 20vh; */
   }
 
   
@@ -120,8 +120,8 @@ html, body {
     left: 30px;
     top: -5px;
     width: 230px;
-    max-width: 90%;
-    height: 9vh;
+    /* max-width: 90%;
+    height: 9vh; */
     }
   }
   
