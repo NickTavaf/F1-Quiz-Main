@@ -51,7 +51,7 @@ html, body {
   /* Main quiz container */
   #quiz-container {
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -111,6 +111,17 @@ html, body {
     }
     100% {
       transform: translateX(100vw);
+    }
+  }
+
+  @media (max-width: 575.98px) {  
+#Logo-img {
+    position: absolute;
+    left: 30px;
+    top: -5px;
+    width: 230px;
+    max-width: 90%;
+    height: 9vh;
     }
   }
   
